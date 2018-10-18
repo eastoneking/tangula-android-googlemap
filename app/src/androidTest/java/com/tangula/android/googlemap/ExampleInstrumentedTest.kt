@@ -1,7 +1,9 @@
 package com.tangula.android.googlemap
 
+import android.app.Application
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
+import com.tangula.android.utils.ApplicationUtils
 
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -19,6 +21,7 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
+        
         assertEquals("com.tangula.android.googlemap", appContext.packageName)
     }
 }

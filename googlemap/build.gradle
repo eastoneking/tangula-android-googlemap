@@ -41,7 +41,7 @@ dependencies {
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
-    implementation "com.github.eastoneking:tangula-android-commons:master-SNAPSHOT@aar"
+    implementation "com.github.eastoneking:tangula-android-commons:0.0.5@aar"
 
     implementation "com.android.support:appcompat-v7:$support_version"
     implementation 'com.google.android.gms:play-services-maps:15.0.0'
